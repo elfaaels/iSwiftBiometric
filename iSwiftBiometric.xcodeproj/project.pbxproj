@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB73AB6F2B8F0D1C00B48582 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB73AB6E2B8F0D1C00B48582 /* AuthController.swift */; };
 		BBF405DF2B8CCE4500507499 /* iSwiftBiometricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF405DE2B8CCE4500507499 /* iSwiftBiometricApp.swift */; };
 		BBF405E12B8CCE4500507499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF405E02B8CCE4500507499 /* ContentView.swift */; };
 		BBF405E32B8CCE4600507499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF405E22B8CCE4600507499 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB73AB6E2B8F0D1C00B48582 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		BBF405DB2B8CCE4500507499 /* iSwiftBiometric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSwiftBiometric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF405DE2B8CCE4500507499 /* iSwiftBiometricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSwiftBiometricApp.swift; sourceTree = "<group>"; };
 		BBF405E02B8CCE4500507499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				BBF405E02B8CCE4500507499 /* ContentView.swift */,
 				BBF405E22B8CCE4600507499 /* Assets.xcassets */,
 				BBF405E42B8CCE4600507499 /* Preview Content */,
+				BB73AB6E2B8F0D1C00B48582 /* AuthController.swift */,
 			);
 			path = iSwiftBiometric;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBF405E12B8CCE4500507499 /* ContentView.swift in Sources */,
+				BB73AB6F2B8F0D1C00B48582 /* AuthController.swift in Sources */,
 				BBF405DF2B8CCE4500507499 /* iSwiftBiometricApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = PFSN649J32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate User";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = PFSN649J32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To Authenticate User";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
